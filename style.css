@@ -75,6 +75,7 @@ html, body {
       right: 80px;
       position: absolute;
       top: 45%;
+	text-decoration:none;
       transform: translateY(-50%);
       text-align: right;
 }
