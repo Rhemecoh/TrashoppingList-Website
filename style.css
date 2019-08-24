@@ -143,6 +143,7 @@ text-decoration: none;
       left: 60px;
       position: absolute;
       top: 46%;
+	  text-decoration: none;
       transform: translateY(-50%);
       text-align: left;
       width: 26%;
@@ -153,6 +154,7 @@ text-decoration: none;
       background: #101010;
       color: #fff;
       outline: none;
+	  text-decoration: none;
       border: none;
       margin: 1em 0;
       font-family: helvetica;
@@ -285,6 +287,7 @@ text-decoration: none;
 
 .right-sidebar li:not(:first-child) {
       padding: 6px 0;
+	  text-decoration: none;
 }
 
 .product {
