@@ -75,13 +75,14 @@ html, body {
       right: 80px;
       position: absolute;
       top: 45%;
-	text-decoration:none;
+	text-decoration: none;
       transform: translateY(-50%);
       text-align: right;
 }
 
 .right-sidebar ul {
       list-style: none;
+text-decoration: none;
       
 }
 .right-sidebar ul a {
@@ -102,6 +103,7 @@ html, body {
 
 .right-sidebar li:not(:first-child) {
       padding: 6px 0;
+text-decoration: none;
 }
 
 .product {
@@ -265,12 +267,14 @@ margin-left:auto;
       right: 80px;
       position: absolute;
       top: 45%;
+text-decoration: none;
       transform: translateY(-50%);
       text-align: right;
 }
 
 .right-sidebar ul {
       list-style: none;
+text-decoration: none;
 }
 
 .title {
