@@ -11,15 +11,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="YouTubePopUp.css">
-	<script type="text/javascript" src="jquery-1.12.1.min.js"></script>
-	<script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
-	<script type="text/javascript">
-		jQuery(function(){
-			jQuery("a.bla-1").YouTubePopUp();
-			jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
-		});
-	</script>
 </head>
 <body>
 
@@ -57,21 +48,16 @@
             <div class="left-sidebar">
 
 
-                  <h1 class="product-title">Trashopping List</h1>
+                  <h1 class="product-title">Hakkımızda</h1>
+                  <div class="hakkimizda"><p>Uzun zamandır hayalini kurduğumuz ve toplumu bir adım daha ileriye götüreceğini düşündüğümüz projemize başlarken çok büyük heveslerimiz vardı. Uzun süren ve yorucu çalışmalarımızın sonunda elde ettiğimiz bu başarıyı gururla sunuyoruz. Trashopping Kırklareli Üniversitesi Teknik Bilimler Meslek Yüksek Okulu Bilgisayar Programcılığı Bölümü Öğrencileri Tarafından Yapılmıştır. </p></div>
 
-                  <p class="desc">Artık markete giderken ya da gittikten sonra evinizde nelere ihtiyacınız olduğunu hangi ürünlerin tükendiğini düşünmenize gerek yok. Kullanımı sona eren her ürün cebinizde olacak.</p>
-
-                  
-
-                  <button class="btn"><a style="text-decoration: none; color: white;"  href="Trashshopping.apk" download>
-  Hemen İndir
-</a></button>
+                  <button class="btn"><a style="text-decoration: none; color: white;"  href="Trashshopping.apk" download>Hemen İndir</a></button>
 
             </div>
 
             <div class="product" id="product">
                 
-                <a class="bla-1" href="https://www.youtube.com/watch?v=YWGfUnNXqqs"><img src="resim.png" alt="resim"></a>
+                  <img src="resim.png" alt="resim">
                 
             </div>
 
@@ -152,6 +138,18 @@
       });
 
       TweenMax.staggerFrom(".right-sidebar ul li", 1, {
+            delay: 2.6,
+            opacity: 0,
+            y: 20,
+            ease: Power3.easeInOut
+      }, 0.08);
+      TweenMax.staggerFrom(".left-sidebar ul li ", 1, {
+            delay: 2.6,
+            opacity: 0,
+            y: 20,
+            ease: Power3.easeInOut
+      }, 0.08);
+          TweenMax.staggerFrom(".left-sidebar p ", 1, {
             delay: 2.6,
             opacity: 0,
             y: 20,

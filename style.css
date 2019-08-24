@@ -81,7 +81,17 @@ html, body {
 
 .right-sidebar ul {
       list-style: none;
+      
 }
+.right-sidebar ul a {
+      list-style: none;
+      text-decoration:none;
+      color:#333;
+    
+    
+    transition:color 0.3s;
+}
+
 
 .title {
       font-size: 36px;
@@ -209,27 +219,30 @@ html, body {
 
 .nav {
       position: fixed;
-      width: 100%;
+      width: 50%;
       height: 100px;
 }
 
 .logo, .next {
       line-height: 80px;
       position: absolute;
-      padding: 10px;
+      
+      
 }
 
 .watch, .cart {
       line-height: 80px;
       position: absolute;
-      padding: 10px;
-      right: 0;
+      margin-left:40px;;
+      right: 10px;
+width: 80%;
 }
 
 .logo {
     position: relative;
-  width: 70px;
-      padding: 10px 80px 10px 60px;
+  width: auto;
+    margin-right:60px;
+      
       background: #ffffff;
 }
 
@@ -243,7 +256,8 @@ html, body {
 }
 
 .cart {
-      right: 70px;
+margin-left:auto;
+      
 }
 
 .right-sidebar {
@@ -316,6 +330,19 @@ html, body {
       font-family: helvetica;
       font-weight: bolder;
       letter-spacing: 4px;
+      margin-right:auto;
+}
+.hakkimizda{
+      font-family: helvetica;
+      font-weight: lighter;
+      line-height: 24px;
+      color: grey;
+      text-align: left;
+margin-top:0px;
+    margin-bottom: 0px;
+      
+font-size: 12px;
+
 }
 .product-title {
       font-size: 20px;
@@ -330,7 +357,9 @@ html, body {
       font-weight: lighter;
       line-height: 24px;
       color: grey;
+      text-align: left;
     margin-bottom: 4px;
+      
 }
 
 #price {
