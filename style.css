@@ -174,22 +174,33 @@ text-decoration: none;
 }
 
 .media {
+color:#fff;
       position: absolute;
       bottom: 40px;
       right: 60px;
+text-decoration: none;
 }
 
+.media a{
+color:#000;
+text-decoration: none;
+}
 .media ul {
       list-style: none;
+text-decoration: none;
 }
 
 .media ul li {
+color:#fff;
       display: inline-block;
+text-decoration: none;
 }
 
 
 .media ul li:not(:last-child) {
       padding-right: 40px;
+text-decoration: none;
+color:#fff;
 }
 @media only screen and (max-width: 600px) {
     html, body {
@@ -375,23 +386,29 @@ font-size: 12px;
 }
 
 .media {
+color:#fff;
       position: absolute;
       bottom: 40px;
+text-decoration: none;
       right: 60px;
 }
 
 .media ul {
       list-style: none;
+text-decoration: none;
 }
 
 .media ul li {
+color:#fff;
       display: inline-block;
     margin-bottom: 40px;
+text-decoration: none;
 }
 
 
 .media ul li:not(:last-child) {
       padding-right: 40px;
+text-decoration: none;
 }
   
 }
